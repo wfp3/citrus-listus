@@ -1,0 +1,23 @@
+header{
+    text: yellow
+    border: 2px dotted orange;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+body {
+    font-family: Ariel, Arial, Helvetica, sans-serif;
+    margin: 3px;
+}
+.subheading {
+    border: 3px dotted green;
+  }
+
+  .dichromatic {
+      padding:80px;
+      text-align: center;
+      background: orange;
+      color: white;
+  }
