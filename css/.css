@@ -1,0 +1,173 @@
+body {
+  font-family: Ariel, Arial, Helvetica, sans-serif;
+  margin: 3px;
+  background-color: rgb(215, 243, 252);
+}
+
+header {
+  text-align: center;
+  background-color: lightgreen;
+  /*text-shadow: red;*/
+  font-size: 3rem
+  border: solid;
+  border-style: outset;
+  border-width: 10px;
+  border-radius: 20px;
+
+  /*position:-webkit-sticky;*/
+  position:sticky;
+  top: 0;
+
+}
+
+.botany{
+    width: auto;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.industry{
+    width: auto;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+h2{
+    justify: center;
+    width: auto;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.flexbox-item-orange{
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.flexbox-item-lime{
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 50px;
+  margin: 20px;
+}
+
+.flexbox-item-lemon{
+
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 50px;
+  margin: 20px;
+}
+
+.flexbox-item-grapefruit{
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 50px;
+  margin: 20px; 
+}
+
+.flexbox-item-tangelo{
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 50px;
+  margin: 20px;
+}  
+
+
+/*.flexbox-item-lime{}
+.flexbox-item-lime{}
+.flexbox-item-lime{}
+.flexbox-item-lime{}*/
+
+  
+
+
+
+
+
+/*.gen-info {
+    border: 3px dotted green;
+    /*padding: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+  }*/
+
+  .botany {
+    border-style: solid;
+    border-width: 2px;
+    margin: .5rem;
+    padding: 10px;
+    /*background-color: tomato;*/
+  }
+
+ .industry {
+    border-style: solid;
+    border-width: 2px;
+    margin: .5rem;
+    padding: 10px;
+  }*/
+
+  .varieties {
+    position: sticky;
+    top: 20px;
+
+  }
+  .dichotomous{
+      padding:80px;
+      text-align: center;
+      background: orange;
+      color: white;
+  }
+
+   
+/*@media (max-width: 720px){
+  header{
+    padding: 2em;
+  }
+  h1 {font-size: 1.75rem;}
+  .gen-info {
+    display: flex;
+    flex-direction: column;
+  }
+}*/
+
+@media (min-width: 721px){
+  header{
+    padding: 5em;
+  }
+  h1{
+    font-size: 3rem;
+  }
+    .gen-info{
+      flex-direction:column;
+
+  }
+}*/
+
+
+  /*.varieties {
+    margin: 2%;
+    /*display: grid;
+    grid-template-columns: auto auto;
+    position: sticky;
+    top:  6rem;
+    position: -webkit-sticky;
+  }
+
+  /*.flexbox-container{
+    background-color: lightseagreen;
+
+  }
+  .flexbox-item-orange{
+    display: flex;
+    justify-content: flex-start;
+    background-color: tomato;
+
+  }
