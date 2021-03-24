@@ -19,7 +19,10 @@ header {
   top: 0;
 
 }
-
+nav {
+  display: inline;
+  text: darkmagenta;
+}
 .botany{
     width: auto;
     border: 15px solid green;

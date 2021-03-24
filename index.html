@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Users/williampolk/Documents/citrus-listus/css/.css">
-    <link rel="javascript" href=/Users/williampolk/Documents/citrus-listus/javascript/.js>
+    <link rel="stylesheet" href="/Users/williampolk/Documents/citrus-listus/css/styles.css">
+<script src=/Users/williampolk/Documents/citrus-listus/javascript/javascript.js></script>
     <title>Citrus Listus</title>
 </head>
 <header>
@@ -12,6 +12,12 @@
         <h1>Citrus Listus</h1>
         <p>a ridiculously basic citrus webpage</p>
     </div>
+    <nav>
+        <a href="/Users/williampolk/Documents/citrus-listus/deadpage.html">About us</a> 
+        <a href="">Useful links</a> 
+        <a href="">Store</a> 
+        <a href="">Tickets</a>
+        </nav>
 </header>
 <body>
 <section class = "gen-info">
@@ -32,7 +38,7 @@
     <div class="flexbox-item-lemon">
     <h3 >Lemon</h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>--->
+        </div>
     <div class="flexbox-item-lime">
     <h3>Lime</h3>
    <!--<img src = "https://commons.wikimedia.org/w/index.php?curid=2432178" 
@@ -48,12 +54,61 @@
         <h3>Tangelo</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-   <div></div>
-    <div></div> -->
-</section>
+
+    <h2>Contact us</h2>
+    <h3>Sign up today and have a genuine 10m orange tree delivered to your house!</h3>
+
+   <!--<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+        </form> -->
+    <form name="freeTreeForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <label for="firstName">First name:</label><br>
+        <input type="text" id="firstName" name="Name" value=""><br>
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="" value=""><br><br>
+        <label for="address">Street address:</label><br>
+        <input type="text" id="lname" name="address" value=""><br><br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="lastName" value=""><br><br>
+        <label for="lastName">What kind of citrus tree do you want?</label><br>
+        <input type="text" id="lname" name="lastName" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+   <!--<form onsubmit="return false">
+    </form>
+    <input type="text" placeholder="Enter your last name" id="lastName" />
+<br><br>
+<input type="text" placeholder="Enter your first name" id="firstName" />
+
+   <!<div></div>
+    <div></div> 
+
+    <html>
+        <head>
+        <script>
+        function validateForm() {
+          var x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+        </script>
+        </head>
+        <body>
+        
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+          Name: <input type="text" name="fname">
+          <input type="submit" value="Submit">
+        </form>
+        
+        </body>
+        </html>
+<!--</section>
 <section class= "dichotomous" >
     <h2>What citrus is this?</h2>
-    <button>Whut?</button>
+    <button>Whut?</button>-->
    
 
 </body>
