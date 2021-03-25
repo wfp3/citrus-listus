@@ -1,5 +1,15 @@
+
+
 function validateForm() {
-    var x = /Users/williampolk/Documents/citrus-listus/index.html["freeTreeForm"]["firstname"].value;
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+} 
+
+/*function validateForm() {
+    var x = /Users/williampolk/Documents/citrus-listus/index.html["formFreeTree"]["firstname"].value;
     if (x == "") {
       alert("First name must be filled out");
       return false;
@@ -7,15 +17,15 @@ function validateForm() {
   } 
 
   function validateForm() {
-    var x = document.forms["freeTreeForm"]["lastname"].value;
+    var x = document.forms["formFreeTree"]["lastname"].value;
     if (x == "") {
-      alert("Last name must be filled out; we need to mine your data, duh.");
+      alert("Last name must be filled out; we need it to mine your data.");
       return false;
     }
   }
 
   function validateForm() {
-    var x = document.forms["myFormfreeTreeForm"]["fname"].value;
+    var x = document.forms["formFreeTree"]["address"].value;
     if (x == "") {
       alert("Address must be filled out; like, how will we get the tree to you otherwise?");
       return false;
