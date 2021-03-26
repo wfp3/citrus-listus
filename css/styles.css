@@ -7,8 +7,8 @@ body {
 header {
   text-align: center;
   background-color: lightgreen;
-  /*text-shadow: red;*/
-  font-size: 3rem
+  /*background-image: url:("images/OrangeBloss_wb.jpg");*/
+  font-size: 4rem
   border: solid;
   border-style: outset;
   border-width: 10px;
@@ -19,28 +19,65 @@ header {
   top: 0;
 
 }
+
+/*.img-header{
+  width: 719px;
+  height: 200px;
+  background-image: url(images/OrangeBloss_wb.jpg);
+  background-size: 100%;
+  opacity: .3;
+}*/
+
 nav {
-  display: inline;
-  text: darkmagenta;
+  display: inline-block;
 }
+
+.img-industry{
+ width: 30%;
+ height: auto;
+
+}
+.img-botany{
+  width: 30%;
+  height: 30%;
+ 
+ }
+
+ .img-orange{
+  width: 30%;
+  height: auto;
+ 
+ }
+
+ .img-lime{
+  width: 30%;
+  height: auto;
+ 
+ }
+ .img-lemon{
+  width: 30%;
+  height: auto;
+ 
+ }
 .botany{
     width: auto;
     border: 15px solid green;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
+
 }
 
 .industry{
     width: auto;
     border: 15px solid green;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
 }
 
 h2{
     justify: center;
     width: auto;
-    padding: 50px;
+    padding: 20px;
     margin: 20px;
 
 }
@@ -48,7 +85,7 @@ h2{
 .flexbox-item-orange{
   width: auto;
   border: 1px solid rgb(87, 57, 2);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
 
 }
@@ -56,7 +93,7 @@ h2{
 .flexbox-item-lime{
   width: auto;
   border: 1px solid rgb(87, 57, 2);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
 }
 
@@ -64,21 +101,21 @@ h2{
 
   width: auto;
   border: 1px solid rgb(87, 57, 2);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
 }
 
 .flexbox-item-grapefruit{
   width: auto;
   border: 1px solid rgb(87, 57, 2);
-  padding: 50px;
+  padding: 20px;
   margin: 20px; 
 }
 
 .flexbox-item-tangelo{
   width: auto;
   border: 1px solid rgb(87, 57, 2);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
 }  
 
@@ -141,7 +178,21 @@ h2{
   }
 }*/
 
-@media (min-width: 721px){
+@media (min-width: 720px){
+  header{
+    padding: 5em;
+  }
+  h1{
+    font-size: 3rem;
+  }
+    .gen-info{
+      flex-direction:column;
+
+  }
+}
+
+
+@media (min-width: 1080px){
   header{
     padding: 5em;
   }
