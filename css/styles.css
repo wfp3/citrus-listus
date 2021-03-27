@@ -12,7 +12,7 @@ header {
   border: solid;
   border-style: outset;
   border-width: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 
   /*position:-webkit-sticky;*/
   position:sticky;
@@ -20,7 +20,22 @@ header {
 
 }
 
-/*.img-header{
+#navbar ul{
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+
+#navbar ul li{
+  display:inline;
+
+}*/
+
+/* Trying to add a transparent image to header
+.img-header{
   width: 719px;
   height: 200px;
   background-image: url(images/OrangeBloss_wb.jpg);
@@ -34,28 +49,47 @@ nav {
 
 
 .img-industry{
- width: 30%;
- height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 30%;
+  height: auto;
 
 }
 .img-botany{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 30%;
   height: 30%;
  
  }
 
  .img-orange{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 30%;
   height: auto;
  
  }
 
  .img-lime{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 30%;
   height: auto;
  
  }
  .img-lemon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 30%;
   height: auto;
  
@@ -63,7 +97,7 @@ nav {
 
  .container-gen-info{
    display:flex;
-
+  flex-direction: row;
 
  }
 
@@ -87,6 +121,12 @@ nav {
   flex-direction: column;
   position:sticky;
   top: 16em;
+}
+
+h2.varieties{
+  width: auto;
+  border:12px, lime;
+
 }
 /*.parent {
   display: flex;
@@ -154,28 +194,38 @@ nav {
 
   .varieties {
     position: sticky;
-    top: 20px;
+    top: 50%;
 
   }
-  .dichotomous{
+
+  /*.dichotomous{
       padding:80px;
       text-align: center;
       background: orange;
       color: white;
-  }
+  }*/
 
-   
+  footer{
+    padding: 20px;
+  } 
 
 @media (min-width: 720px){
   header{
     padding: 5em;
+    border-top: 50px; 
+    background-color: orange;
   }
   h1{
-    font-size: 3rem;
+    font-size: 4rem;
   }
-    .container-gen-info{
-      flex-direction:row;
+  .container-gen-info{
+    flex-direction:column;
+  }
+  .container-varieties{
 
+  }
+  #navbar ul{
+    text-align:right;
   }
 }
 
@@ -183,14 +233,18 @@ nav {
 @media (min-width: 1080px){
   header{
     padding: 5em;
+    background-color: indigo;
   }
   h1{
     font-size: 3rem;
   }
-    .container-gen-info{
+  .container-gen-info{
       flex-direction:column;
       align-items: start;
-
   }
+  .container-varieties{
+    text-align: left;
+  }
+  
 }*/
 

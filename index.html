@@ -16,11 +16,15 @@
         <div clas="img-header"></div>
     </div>
    
-    <nav>
-        <a href="deadpage.html">About us</a> 
-        <a href="deadpage2.html">Useful links</a> 
-        <a href="">Store</a> 
-        <a href="">Tickets</a>
+    <div id="navbar">
+        <ul>
+        <li><a href="deadpage.html">Thing 1</a> </li>
+        <li><a href="deadpage.html">Thing 2</a> </li>
+        <li><a href="deadpage.html">Thing 3</a> </li>
+        <li><a href="deadpage.html">Thing 4</a> </li>
+    </ul>
+    </div>
+      
         </nav>
 </header>
 <body>
@@ -36,7 +40,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </section>
-<section class = "container-varieties"><h2>Varieties</h2>
+<h2 class="varieties">Varieties</h2>
+<section class = "container-varieties">
     <div class="flexbox-item-orange">
     <h3>Orange </h3>
     <img class= "img-orange" src="images/Orange-fruit-2.jpg" alt="an orange">
@@ -50,7 +55,7 @@
     <div class="flexbox-item-lime" >
     <h3>Lime</h3>
     <img class="img-lime" src="images/Lime_CDC.jpg" alt= "a lime">
-    
+
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     <div class="flexbox-item-grapefruit">
@@ -66,14 +71,24 @@
     <h3>Sign up today and have a genuine 10m orange tree delivered to your house!</h3>
        
         
-  
-   <!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  <form action="welcome.html">
+
+         <input id="uname" placeholder="Username"
+        type="text"/><br><br>
+
+        <input id="pass" placeholder="Password"
+        type="password"/><br><br>  
+        
+        <button onclicktype="validate" type="submit">Submit</button>
+
+  </form>
+    <!--<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
         Name: <input type="text" name="fname">
         <input type="submit" value="Submit">
-        </form> -->
+        </form>
 
-</form> 
-    <form name="formFreeTree" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+  <!--<form name="formFreeTree" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
         <label for="firstName">First name:</label><br>
         <input id="firstName" name="name" type="text" value=""><br>
@@ -93,10 +108,11 @@
 
       </form> 
         <form onsubmit="return false">
-    </form>-->
+    </form>--> 
 
 </section>
 </body>
+
 <footer>
     <p>&copy; 2021 Transylvania Grove Co.</p>
 </footer>
