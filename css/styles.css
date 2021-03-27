@@ -32,6 +32,7 @@ nav {
   display: inline-block;
 }
 
+
 .img-industry{
  width: 30%;
  height: auto;
@@ -59,28 +60,43 @@ nav {
   height: auto;
  
  }
-.botany{
+
+ .container-gen-info{
+   display:flex;
+
+
+ }
+
+.item-botany{
     width: auto;
-    border: 15px solid green;
-    padding: 20px;
-    margin: 20px;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
 
 }
 
-.industry{
+.item-industry{
     width: auto;
-    border: 15px solid green;
-    padding: 20px;
-    margin: 20px;
+    border: 2px solid green;
+    padding: 10x;
+    margin: 10px;
 }
 
-h2{
-    justify: center;
-    width: auto;
-    padding: 20px;
-    margin: 20px;
-
+.container-varieties{
+  display:flex;
+  flex-direction: column;
+  position:sticky;
+  top: 16em;
 }
+/*.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child {
+  flex-grow: 1;
+  flex-basis: 0;
+}*/
 
 .flexbox-item-orange{
   width: auto;
@@ -120,24 +136,6 @@ h2{
 }  
 
 
-/*.flexbox-item-lime{}
-.flexbox-item-lime{}
-.flexbox-item-lime{}
-.flexbox-item-lime{}*/
-
-  
-
-
-
-
-
-/*.gen-info {
-    border: 3px dotted green;
-    /*padding: 50px;
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-  }*/
 
   .botany {
     border-style: solid;
@@ -167,16 +165,6 @@ h2{
   }
 
    
-/*@media (max-width: 720px){
-  header{
-    padding: 2em;
-  }
-  h1 {font-size: 1.75rem;}
-  .gen-info {
-    display: flex;
-    flex-direction: column;
-  }
-}*/
 
 @media (min-width: 720px){
   header{
@@ -185,8 +173,8 @@ h2{
   h1{
     font-size: 3rem;
   }
-    .gen-info{
-      flex-direction:column;
+    .container-gen-info{
+      flex-direction:row;
 
   }
 }
@@ -199,29 +187,10 @@ h2{
   h1{
     font-size: 3rem;
   }
-    .gen-info{
+    .container-gen-info{
       flex-direction:column;
+      align-items: start;
 
   }
 }*/
 
-
-  /*.varieties {
-    margin: 2%;
-    /*display: grid;
-    grid-template-columns: auto auto;
-    position: sticky;
-    top:  6rem;
-    position: -webkit-sticky;
-  }
-
-  /*.flexbox-container{
-    background-color: lightseagreen;
-
-  }
-  .flexbox-item-orange{
-    display: flex;
-    justify-content: flex-start;
-    background-color: tomato;
-
-  }

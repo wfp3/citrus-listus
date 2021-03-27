@@ -1,15 +1,15 @@
 
 
-function validateForm() {
+/*function validateForm() {
   var x = document.forms["myForm"]["fname"].value;
   if (x == "") {
     alert("Name must be filled out");
     return false;
   }
-} 
+} */
 
-/*function validateForm() {
-    var x = /Users/williampolk/Documents/citrus-listus/index.html["formFreeTree"]["firstname"].value;
+function validateForm() {
+    var x = firstName.forms["formFreeTree"]["firstname"].value;
     if (x == "") {
       alert("First name must be filled out");
       return false;
