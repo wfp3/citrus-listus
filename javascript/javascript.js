@@ -1,11 +1,15 @@
 function validate(){
-  var username=document.getElementById ("uname");
-  var password=document.getElementById ("pass");
+  var username = document.getElementById ("uname");
+  var password = document.getElementById ("pass");
 
-  if(username.value=="" ||password.value==""){
+  if(username.value.trim()=="" ||password.value.trim()==""){
     alert("Please fill in your response.");
+    return false;
   }
-  else{}
+  else{
+    true;
+
+  }
 }
 
 
