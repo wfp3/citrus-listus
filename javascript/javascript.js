@@ -1,15 +1,56 @@
+
 function validate(){
-  var username = document.getElementById ("uname");
-  var password = document.getElementById ("pass");
+  var fName= document.getElementById("firstName").value.trim();
+  var lName= document.getElementById("lastName").value.trim();
+  var stAddy= document.getElementById("streetAddy").value.trim();
+  var staAddy= document.getElementById("stateAddy").value.trim()
 
-  if(username.value.trim()=="" ||password.value.trim()==""){
-    alert("Please fill in your response.");
-    return false;
-  }
-  else{
-    true;
+    if(fName.value=="");
+    if(lName.value=="");
+    if(stAddy.value=="");
+    if(staAddy.value=="");{
 
-  }
+      alert("Please fill in the blank field.");
+      return false;
+    }
+      else{
+        true;
+      }
+    }
+}
+
+
+
+
+/*function validateForm(){
+  var firstName= document.getDocumentById ('firstname').value.trim();
+  var lastName= document.getDocumentById ('lastname').value.trim();
+  var streetAddy= document.getDocumentById ('street').value.trim();
+  var stateAddy= document.getDocumentById ('state').value.trim();
+
+  var errorMessage;
+
+  if (firstName=="") errorMessage += "Please provide your first name."
+  if (lastName=="") errorMessage += "Please provide your last name (or at least an alias)."
+  if (streetAddy=="") errorMessage += "A street is required for delivery, duh."
+  if (stateAddy=="") errorMessage += "Do you live in a state of confusion? Please fill in your state."
+
+  alert(errorMessage)
+  if(errorMessage>0)return false;
+  return true;
+}
+/*function validate(){
+  var username = document.getElementById ("uname").value.trim();
+  /*var password = document.getElementById ("pass").value.trim();
+  var street = document.getElementById ("street").value.trim();
+  var password = document.getElementById ("pass").value.trim();
+  if(firstName=="") errorMessage+="Please provide your first name."
+  if(street=="") errorMessage+="Please provide your street address."
+  if(state=="") errorMessage+="Is your state confused? Please fill in a state name."
+  alert (errorMessage);
+  if (errorMessage.length>0) return false;
+  return true;
+
 }
 
 

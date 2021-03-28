@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-<script src=/javascript/javascript.js></script>
+<script src="javascript/javascript.js"></script>
     <title>Citrus Listus</title>
 </head>
 <header>
@@ -66,18 +66,47 @@
         <h3>Tangelo</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-
+<section>
     <h2>Contact us</h2>
     <h3>Sign up today and have a genuine 10m orange tree delivered to your house!</h3>
-       
-        
-  <form onsubmit ="return validate()" action="welcome.html">
+     
+   <form onsubmit="validate()" action="welcome.html">
 
-         <input id="uname" placeholder="Username"
+    <input id= "firstName" placeholder="First Name" type="text"> <br><br>
+    <input id= "lastName" placeholder="Last Name" type="text"> <br><br>
+    <input id= "streetAddy" placeholder="Street Address" type="text"> <br><br>
+    <input id= "stateAddy" placeholder="State" type="text"> <br><br>
+
+    <button type="submit">Submit</button>
+  
+   </form>
+   
+</section>
+   
+    <!-- <form id="main" onsubmit="validateForm()" action="welcome.html">
+        <input type="text" id="firstName">
+        <input type="text" id="lastName">
+        <input type="text" id="streetAddy">
+        <input type="text" id="stateAddy">
+        <input type="submit">
+    
+    </form>-->
+
+
+        
+  <!--form onsubmit ="return validate()" action="welcome.html">
+
+
+         <input id="firstName" placeholder="Name"
         type="text"/><br><br>
 
-        <input id="pass" placeholder="Password"
-        type="password"/><br><br>  
+        <!--<input id="pass" placeholder="Password"
+        type="password"/><br><br>
+        <input id="street" placeholder="Street"
+        type="text"/><br><br>  
+
+        <input id="state" placeholder="State"
+        type="text"/><br><br> 
         
         <button onclicktype="validate" type="submit">Submit</button>
 
