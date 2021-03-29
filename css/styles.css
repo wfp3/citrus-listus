@@ -7,17 +7,11 @@ body {
 header {
   text-align: center;
   background-color: lightgreen;
-  /*background-image: url:("images/OrangeBloss_wb.jpg");*/
-  font-size: 4rem
+  /*font-size: 2rem;*/
   border: solid;
   border-style: outset;
   border-width: 10px;
   border-radius: 10px;
-
-  /*position:-webkit-sticky;*/
-  position:sticky;
-  top: 0;
-
 }
 
 #navbar ul{
@@ -32,21 +26,7 @@ header {
 #navbar ul li{
   display:inline;
 
-}*/
-
-/* Trying to add a transparent image to header
-.img-header{
-  width: 719px;
-  height: 200px;
-  background-image: url(images/OrangeBloss_wb.jpg);
-  background-size: 100%;
-  opacity: .3;
-}*/
-
-/*nav {
-  display: inline-block;
-}*/
-
+}
 
 .img-industry{
   width: 100%;
@@ -58,8 +38,8 @@ header {
   margin-right: auto;
   width: 30%;
   height: 30%; */
-
 }
+
 .img-botany{
   width: 125%;
   height: 100px;
@@ -71,20 +51,17 @@ header {
   margin-right: auto;
  
   height: 30%;*/
- 
  }
 
  .img-orange{
    width: 135%;
-   height: 100px;
+   height: 120px;
    object-fit: contain;
-
   /*display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   height: auto;*/
- 
  }
 
  .img-lime{
@@ -97,8 +74,8 @@ header {
   width: 50%;
   width: 30%;
   height: auto;*/
- 
  }
+
  .img-lemon{
   width: 135%;
   height: 100px;
@@ -109,13 +86,25 @@ header {
   width: 50%;
   width: 30%;
   height: auto;*/
- 
  }
+
+ .img-grapefruit{
+  width: 135%;
+  height: 100px;
+  object-fit: contain;
+  /*display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 30%;
+  height: auto;*/
+ }
+
+
 
  .container-gen-info{
    display:flex;
    flex-direction: row;
-
  }
 
 .item-botany{
@@ -123,7 +112,6 @@ header {
     border: 2px solid green;
     padding: 10px;
     margin: 10px;
-
 }
 
 .item-industry{
@@ -134,26 +122,17 @@ header {
 }
 
 .container-varieties{
+  position:sticky;
+  top: 0em;
   display:flex;
   flex-direction: column;
-  /*position:sticky;
-  top: 16em;*/
+ 
 }
 
 h2.varieties{
   width: auto;
   border:12px, lime;
-
 }
-/*.parent {
-  display: flex;
-  justify-content: space-between;
-}
-
-.child {
-  flex-grow: 1;
-  flex-basis: 0;
-}*/
 
 .flexbox-item-orange{
   /*width: auto;*/
@@ -193,6 +172,12 @@ h2.varieties{
   margin: 20px;
 }  
 
+.flexbox-item-hybrids{
+  width: auto;
+  border: 1px solid rgb(87, 57, 2);
+  padding: 20px;
+  margin: 20px;
+} 
 
 
   .botany {
@@ -208,20 +193,14 @@ h2.varieties{
     border-width: 2px;
     margin: .5rem;
     padding: 10px;
-  }*/
+  }
 
-  .varieties {
+ /* .varieties {
     position: sticky;
     top: 50%;
 
-  }
-
-  /*.dichotomous{
-      padding:80px;
-      text-align: center;
-      background: orange;
-      color: white;
   }*/
+
 
   footer{
     padding: 20px;
@@ -232,60 +211,107 @@ h2.varieties{
     padding: 5em;
     border-top: 50px; 
     background-color: orange;
+    position:sticky;
+    top: 0;
   }
+
   h1{
     font-size: 4rem;
   }
+
   .container-gen-info{
     flex-direction: column;
-    
   }
+
   .container-varieties{
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
+
   .flexbox-item-orange{
    /* order: 1;*/
    width: 40%; 
   }
+
   .flexbox-item-lime{
     /*order: 2;*/
     width: 40%
   }
+
   .flexbox-item-lemon{
     /*order: 3;*/
   width: 40%;
   }
+
   .flexbox-item-grapefruit{
       /*order: 4;*/
-    width:40%
+    width:40%;
   }
+
   .flexbox-item-tangelo{
     /*order: 5;*/
-    width:40%
+    width:40%;
   }
+
   /*#navbar ul{
-    text-align:right;*/
+    text-align:right;
+  }*/
+
+  .flexbox-item-hybrids{
+    /*order: 6*/
+    width: 40%;
   }
+
+.contactForm{
+  width: 300px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -100px;
+  padding: 10px;
+  border: 15px solid red;
+  margin: 10px 10px 10px 100px;
 }
 
 
 @media (min-width: 1080px){
   header{
+    /*font-size: 3rem;*/
     padding: 5em;
     background-color: indigo;
+   
   }
+
   h1{
     font-size: 3rem;
   }
+
   .container-gen-info{
       flex-direction:column;
       align-items: start;
   }
-  .container-varieties{
+
+  .container-varieties {
     flex-direction: row;
   }
-  
-}*/
 
+  .img-orange{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
+   /*display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height: auto;*/
+  }
+ /* .flexbox-item-orange{
+    /*width: auto;
+    flex: 1;
+    border: 1px solid rgb(87, 57, 2);
+    padding: 20px;
+    margin: 20px;
+  
+  }*/
