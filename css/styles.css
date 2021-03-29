@@ -27,9 +27,10 @@ header {
   display:inline;
 
 }
+/* Image styling*/
 
 .img-industry{
-  width: 100%;
+  width: 130%;
    height: 100px;
    object-fit: contain;
   /*
@@ -41,17 +42,16 @@ header {
 }
 
 .img-botany{
-  width: 125%;
+  width: 130%;
   height: 100px;
   object-fit: contain;
- /* max-width: 25%;
-  height: auto;
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;
- 
-  height: 30%;*/
- }
+ /*
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 30%;
+ height: 30%; */
+}
 
  .img-orange{
    width: 135%;
@@ -100,7 +100,31 @@ header {
   height: auto;*/
  }
 
+ .img-hybrids{
+  width: 135%;
+  height: 100px;
+  object-fit: contain;
+  /*display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 30%;
+  height: auto;*/
+ }
 
+
+ .img-tangelo{
+  width: 135%;
+  height: 100px;
+  object-fit: contain;
+  /*display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 30%;
+  height: auto;*/
+ }
+/* Flexbox containers*/
 
  .container-gen-info{
    display:flex;
@@ -136,7 +160,6 @@ h2.varieties{
 
 .flexbox-item-orange{
   /*width: auto;*/
-  flex: 1;
   border: 1px solid rgb(87, 57, 2);
   padding: 20px;
   margin: 20px;
@@ -185,7 +208,7 @@ h2.varieties{
     border-width: 2px;
     margin: .5rem;
     padding: 10px;
-    /*background-color: tomato;*/
+  
   }
 
  .industry {
@@ -195,21 +218,23 @@ h2.varieties{
     padding: 10px;
   }
 
- /* .varieties {
-    position: sticky;
+  .contactForm{
+    width: auto;
+    /*height: 200px;
     top: 50%;
-
-  }*/
-
-
-  footer{
-    padding: 20px;
-  } 
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;*/
+    padding: 10px;
+    border: 3px solid green;
+    margin: 10px 10px 10px 10px;
+  }
+  
 
 @media (min-width: 720px){
   header{
-    padding: 5em;
-    border-top: 50px; 
+    /*padding: 5em;
+    border-top: 50px; */
     background-color: orange;
     position:sticky;
     top: 0;
@@ -218,7 +243,30 @@ h2.varieties{
   h1{
     font-size: 4rem;
   }
-
+  .img-industry{
+    width: 100%;
+     height: 150px;
+     object-fit: contain;
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%; */
+  }
+  
+  .img-botany{
+    width: 125%;
+    height: 150px;
+    object-fit: contain;
+   /* max-width: 25%;
+    height: auto;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    height: 30%;*/
+   }
   .container-gen-info{
     flex-direction: column;
   }
@@ -254,9 +302,9 @@ h2.varieties{
     width:40%;
   }
 
-  /*#navbar ul{
+  #navbar ul{
     text-align:right;
-  }*/
+  }
 
   .flexbox-item-hybrids{
     /*order: 6*/
@@ -264,12 +312,12 @@ h2.varieties{
   }
 
 .contactForm{
-  width: 300px;
-  height: 200px;
+  width: auto;
+  /*height: 200px;
   top: 50%;
   left: 50%;
   margin-left: -150px;
-  margin-top: -100px;
+  margin-top: -100px;*/
   padding: 10px;
   border: 15px solid red;
   margin: 10px 10px 10px 100px;
@@ -279,15 +327,36 @@ h2.varieties{
 @media (min-width: 1080px){
   header{
     /*font-size: 3rem;*/
-    padding: 5em;
-    background-color: indigo;
+   /* padding: 5em;*/
+    background-color: yellow;
    
   }
 
-  h1{
-    font-size: 3rem;
-  }
 
+  .img-industry{
+    width: 100%;
+     height: 200px;
+     object-fit: contain;
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%; */
+  }
+  
+  .img-botany{
+    width: 125%;
+    height: 200px;
+    object-fit: contain;
+   /* max-width: 25%;
+    height: auto;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    height: 30%;*/
+   }
   .container-gen-info{
       flex-direction:column;
       align-items: start;
@@ -306,6 +375,31 @@ h2.varieties{
    margin-right: auto;
    width: 30%;
    height: auto;*/
+  }
+  .img-lemon{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .img-lime{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .img-grapefruit{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .img-tangelo{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .img-hybrids{
+    width: 135%;
+    height: 200px;
+    object-fit: contain;
   }
  /* .flexbox-item-orange{
     /*width: auto;
