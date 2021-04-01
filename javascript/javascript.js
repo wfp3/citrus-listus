@@ -11,7 +11,6 @@ function validate(){
       return false;
     }
       else{
-        console.log('hitting the else')
         return true;
       }
     }
