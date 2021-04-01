@@ -6,7 +6,7 @@ body {
 
 header {
   text-align: center;
-  background-color: lightgreen;
+  background-color: rgb(250, 197, 99);
   border: solid;
   border-style: outset;
   border-width: 10px;
@@ -18,12 +18,13 @@ header {
   padding: 10px;
   list-style-type: none;
   text-align: center;
-  background-color: greenyellow;
+  background-color: rgb(101, 141, 40);
   border-radius: 5px;
 }
 
 #navbar ul li{
   display:inline;
+ 
 
 }
 
@@ -117,13 +118,9 @@ header {
  
 }
 
-h2.varieties{
-  width: auto;
-  border:12px, lime;
-}
 
 .flexbox-item-orange{
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1));
   padding: 20px;
   margin: 20px;
 
@@ -131,7 +128,7 @@ h2.varieties{
 
 .flexbox-item-lime{
   width: auto;
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1);
   padding: 20px;
   margin: 20px;
 }
@@ -139,28 +136,28 @@ h2.varieties{
 .flexbox-item-lemon{
 
   width: auto;
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1);
   padding: 20px;
   margin: 20px;
 }
 
 .flexbox-item-grapefruit{
   width: auto;
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1);
   padding: 20px;
   margin: 20px; 
 }
 
 .flexbox-item-tangelo{
   width: auto;
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1);
   padding: 20px;
   margin: 20px;
 }  
 
 .flexbox-item-hybrids{
   width: auto;
-  border: 1px solid rgb(87, 57, 2);
+  border: 1px solid rgb(177, 115, 1);
   padding: 20px;
   margin: 20px;
 } 
@@ -194,7 +191,6 @@ h2.varieties{
 
 @media (min-width: 720px){
   header{
-    background-color: orange;
     position:sticky;
     top: 0;
   }
@@ -265,6 +261,7 @@ h2.varieties{
 
 .contactForm{
   width: auto;
+  justify-self: normal;
   padding: 10px;
   border: 3px solid darkgreen;
   margin: 10px 10px 10px 100px;
@@ -275,11 +272,6 @@ h2.varieties{
 ===========================================*/
 
 @media (min-width: 1080px){
-
-  header{
-    background-color: yellow;
-  }
-
 
   .img-industry{
     width: 100%;
@@ -302,6 +294,7 @@ h2.varieties{
   .container-varieties{
     flex-direction: row;
     box-sizing: border-box;
+    
   }
 
   .img-orange{
@@ -341,34 +334,33 @@ h2.varieties{
   }
   
   .flexbox-item-orange{
+    flex-grow: 1;
     width: 33.33%;
   }
 
   .flexbox-item-lemon{
+    flex-grow: 1;
     width: 33.33%;
   }
 
   .flexbox-item-lime{
+    flex-grow: 1;
     width: 33.33%;
   }
 
   .flexbox-item-grapefruit{
+    flex-grow: 1;
     width: 33.33%;
   }
 
   .flexbox-item-tangelo{
+    flex-grow: 1;
     width: 33.33%;
   }
 
   .flexbox-item-hybrids{
+    flex-grow: 1;
     width: 33.33%;
   }
 
-.contactForm{
-  width: auto;
-
-  padding: 10px;
-  border: 4px solid darkgreen;
-  margin: 10px 10px 10px 100px;
-}
 }
