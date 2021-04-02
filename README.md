@@ -10,3 +10,5 @@ To meet the project requirements, I have built the project with the following fe
 3.) The JavaScript form verification will return an "error" message when either spaces are entered into the fields or they are left blank. Successful completion of the form redirects to an HTML page with a message indicating success. 
 
 I believe that this project is an accurate representation of what I have learned through this course. It's an ugly baby, but it's mine and I had a good time building it.
+
+PLEASE PULL MY PROJECT FROM THE MASTER BRANCH.
