@@ -287,7 +287,10 @@ header {
     box-sizing: border-box;
     
   }
-
+/*==========================================
+  Resizing images
+  ==========================================*/
+  
   .img-orange{
     width: 135%;
     height: 200px;

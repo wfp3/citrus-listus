@@ -1,4 +1,6 @@
-
+/*===================================
+ Form Verification
+  ===================================*/
 function validate(){
   var fName= document.getElementById("firstName").value.trim();
   var lName= document.getElementById("lastName").value.trim();
@@ -13,5 +15,5 @@ function validate(){
       else{
         return true;
       }
-    }
+}
 
